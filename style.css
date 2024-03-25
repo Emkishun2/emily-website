@@ -1,0 +1,53 @@
+body{
+    font-family: "Irish Grover", system-ui;
+    background-image: url();
+    }
+
+nav{
+    background-color: transparent;
+    font-family: "Irish Grover", system-ui;
+    font-size: 27px;
+    font-style: normal;
+    /* added the three "fonts" but had no changes to the navigation menu */
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px 10%; 
+      }
+
+#main-menu{
+    display: flex;
+    gap: 50px;
+}
+
+#main-menu li{
+    list-style: none;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    margin: 0px;
+}
+
+.sub-menu:hover .dropdown {
+    display:block
+}
+
+.logo{
+    color: #051BE2;
+    font-family: "Just Me Again Down Here", cursive;
+    font-size: 60px;
+    font-style: normal;
+    padding: 0px 5%;
+}
+
+#main-menu button, #main-menu a {
+    background-color: transparent;
+    font-family: "Irish Grover", system ui;
+    font-size: 20px; 
+    color: black;
+    border-width: 0;
+    font-weight: none; 
+    text-decoration: none; 
+/* the navigation bar  */
+}
