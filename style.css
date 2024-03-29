@@ -1,6 +1,11 @@
 body{
     font-family: "Irish Grover", system-ui;
-    background-image: url();
+    background-color: yellow;
+  /*  background-image: url("emily-portfolio-1/assets/images/third-background.avif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:2000px;*/
+    
     }
 
 nav{
@@ -30,11 +35,11 @@ nav{
 }
 
 .sub-menu:hover .dropdown {
-    display:block
+    display:block;
 }
 
 .logo{
-    color: #051BE2;
+    color: #0066FF;
     font-family: "Just Me Again Down Here", cursive;
     font-size: 60px;
     font-style: normal;
@@ -51,3 +56,5 @@ nav{
     text-decoration: none; 
 /* the navigation bar  */
 }
+
+
